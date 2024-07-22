@@ -1,6 +1,6 @@
 {
-  "homepage": "https://juv123.github.io/Portfolio/",
-  "name": "portfolio-react-app",
+  "homepage": "https://juv123.github.io/Portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
