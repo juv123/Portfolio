@@ -1,0 +1,134 @@
+[debug] [2024-07-22T09:15:15.085Z] ----------------------------------------------------------------------
+[debug] [2024-07-22T09:15:15.089Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Justin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-07-22T09:15:15.089Z] CLI Version:   13.13.3
+[debug] [2024-07-22T09:15:15.090Z] Platform:      win32
+[debug] [2024-07-22T09:15:15.090Z] Node Version:  v18.16.0
+[debug] [2024-07-22T09:15:15.091Z] Time:          Mon Jul 22 2024 14:45:15 GMT+0530 (India Standard Time)
+[debug] [2024-07-22T09:15:15.091Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-22T09:15:15.121Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-22T09:15:15.121Z] > authorizing via signed-in user (deegaaug@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\react\portfolio
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-07-22T09:16:10.661Z] > refreshing access token with scopes: []
+[debug] [2024-07-22T09:16:10.664Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-07-22T09:16:10.664Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-07-22T09:16:10.881Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-07-22T09:16:10.882Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-07-22T09:16:10.922Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-07-22T09:16:10.922Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"portfolio123","name":"portfolio"}
+[debug] [2024-07-22T09:16:12.233Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2024-07-22T09:16:12.233Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2024-07-22T09:16:12.361Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\Justin\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Justin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID portfolio123. Please try again with a unique project ID.
+[debug] [2024-07-22T09:16:21.518Z] ----------------------------------------------------------------------
+[debug] [2024-07-22T09:16:21.521Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Justin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-07-22T09:16:21.521Z] CLI Version:   13.13.3
+[debug] [2024-07-22T09:16:21.521Z] Platform:      win32
+[debug] [2024-07-22T09:16:21.521Z] Node Version:  v18.16.0
+[debug] [2024-07-22T09:16:21.522Z] Time:          Mon Jul 22 2024 14:46:21 GMT+0530 (India Standard Time)
+[debug] [2024-07-22T09:16:21.523Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-22T09:16:21.530Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-22T09:16:21.531Z] > authorizing via signed-in user (deegaaug@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\react\portfolio
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-07-22T09:17:07.289Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-07-22T09:17:07.290Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"myportfolio","name":"portfolio"}
+[debug] [2024-07-22T09:17:08.612Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2024-07-22T09:17:08.612Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2024-07-22T09:17:08.740Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\Justin\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Justin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID myportfolio. Please try again with a unique project ID.
+[debug] [2024-07-22T09:17:17.380Z] ----------------------------------------------------------------------
+[debug] [2024-07-22T09:17:17.382Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Justin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-07-22T09:17:17.383Z] CLI Version:   13.13.3
+[debug] [2024-07-22T09:17:17.383Z] Platform:      win32
+[debug] [2024-07-22T09:17:17.383Z] Node Version:  v18.16.0
+[debug] [2024-07-22T09:17:17.384Z] Time:          Mon Jul 22 2024 14:47:17 GMT+0530 (India Standard Time)
+[debug] [2024-07-22T09:17:17.385Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-22T09:17:17.392Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-22T09:17:17.392Z] > authorizing via signed-in user (deegaaug@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\react\portfolio
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-07-22T09:17:51.494Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-07-22T09:17:51.495Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"portfolio@89999","name":"portfolio"}
+[debug] [2024-07-22T09:17:52.837Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2024-07-22T09:17:52.837Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2024-07-22T09:17:52.961Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at responseToError (C:\Users\Justin\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Justin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.

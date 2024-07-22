@@ -13,11 +13,11 @@ const Work = () => {
       <div className='max-w-[1000px] px-28 py-40 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>Projects</p>
-          <p className='text-2xl'>Want to see some of my recent works?.</p>
+          <p className='text-2xl mt-10'>Want to see some of my recent works?.</p>
         </div>
 
 {/* container for projects */}
-<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 mx-24 w-[100%]">
           
           {/* Gird Item */}
           {project.map((item, index) => (
