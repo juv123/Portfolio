@@ -39,7 +39,7 @@ export const data=[
         name:"Ride Me",
         image:rideme,
         github:"https://github.com/juv123/HorseRideBooking",
-        live:"https://horseride-6f273.web.app/  ",
+        live:"https://horseride-6f273.web.app/",
     },
 
 
