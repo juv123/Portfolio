@@ -3,10 +3,8 @@ import {
   FaBars,
   FaTimes,
   FaGithub,
-  FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
-} from 'react-icons/fa';
+  FaLinkedin
+  } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import deega_logo from '../assets/deega_logo.png';
@@ -140,7 +138,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://drive.google.com/file/d/10JKPNIyujaZbO-wFTfSra-WQamyTYcDW/view?usp=sharing'
+              href='https://drive.google.com/file/d/1nPRrMZVa17tS5L9f7Ujyh2VDY_-xTSMW/view?usp=sharing'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
