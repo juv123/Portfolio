@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.990e8be1.css",
-    "main.js": "/Portfolio/static/js/main.e83d4b55.js",
+    "main.css": "/Portfolio/static/css/main.edb077d0.css",
+    "main.js": "/Portfolio/static/js/main.fb6859b3.js",
     "static/media/netflix.png": "/Portfolio/static/media/netflix.f16fc8407b5dfd3fcd11.png",
     "static/media/realestate.jpg": "/Portfolio/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/gec.jpeg": "/Portfolio/static/media/gec.e260bd16051a7513c42a.jpeg",
@@ -10,6 +10,7 @@
     "static/media/shoppingcart.png": "/Portfolio/static/media/shoppingcart.2ea48b919e2f96d677d0.png",
     "static/media/youtube.png": "/Portfolio/static/media/youtube.02ad04e35ecbc091db9f.png",
     "static/media/workImg.jpeg": "/Portfolio/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
+    "static/media/currency-converter.png": "/Portfolio/static/media/currency-converter.7cf99709e8fd81b0993b.png",
     "static/media/react.png": "/Portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/github.png": "/Portfolio/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/Portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
@@ -19,11 +20,11 @@
     "static/media/php.jpg": "/Portfolio/static/media/php.17f0aaac53943e76a156.jpg",
     "static/media/javascript.png": "/Portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio/index.html",
-    "main.990e8be1.css.map": "/Portfolio/static/css/main.990e8be1.css.map",
-    "main.e83d4b55.js.map": "/Portfolio/static/js/main.e83d4b55.js.map"
+    "main.edb077d0.css.map": "/Portfolio/static/css/main.edb077d0.css.map",
+    "main.fb6859b3.js.map": "/Portfolio/static/js/main.fb6859b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.990e8be1.css",
-    "static/js/main.e83d4b55.js"
+    "static/css/main.edb077d0.css",
+    "static/js/main.fb6859b3.js"
   ]
 }
