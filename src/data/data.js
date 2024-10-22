@@ -5,6 +5,7 @@ import netflix from '../assets/projects/netflix.png'
 import youtube from '../assets/projects/youtube.png'
 import foodie from '../assets/projects/foodie.png'
 import rideme from '../assets/projects/horseride.png'
+import currency_converter from '../assets/projects/currency-converter.png'
 export const data=[
     {
         id:1,
@@ -39,7 +40,14 @@ export const data=[
         name:"Ride Me",
         image:rideme,
         github:"https://github.com/juv123/HorseRideBooking",
-        live:"https://horseride-6f273.web.app/",
+        live:"https://horse-ride-booking-blue.vercel.app/",
+    },
+    {
+        id:1,
+        name:"Currency Converter",
+        image:currency_converter,
+        github:"https://github.com/juv123/CurrencyConverter",
+        live:"https://currency-converter-r7zv-nsqp8t2ya-juv123s-projects.vercel.app/",
     },
 
 

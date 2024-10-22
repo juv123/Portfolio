@@ -23,7 +23,6 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Basic client-side validation
     if (!formData.name || !formData.email || !formData.message) {
       setFormStatus({
         success: false,
@@ -47,7 +46,7 @@ const Contact = () => {
           error: false,
           message: 'Thank you for your message! I will get back to you soon.'
         });
-        setFormData({ name: '', email: '', message: '' }); // Clear form fields
+        setFormData({ name: '', email: '', message: '' });
       })
       .catch((error) => {
         setFormStatus({
@@ -62,12 +61,12 @@ const Contact = () => {
     <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
       <form 
         onSubmit={handleSubmit}
-        className='flex flex-col max-w-[600px] w-full'>
+        className='flex flex-col max-w-[600px] w-full sm:px-8 md:px-12'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>
             Contact
           </p>
-          <p className='text-gray-300 py-4'>
+          <p className='text-gray-300 py-4 text-sm sm:text-base'>
             Submit the form below or shoot me an email - deegaaug@gmail.com
           </p>
         </div>

@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div>
+      <h1>My Portfolio</h1>
       <Navbar />
       <Home />
       <About />
