@@ -33,7 +33,7 @@ const Work = () => {
                   </a>
                   <a href={item.live} target='_blank' rel='noopener noreferrer'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                      Live
+                     Demo
                     </button>
                   </a>
                 </div>
