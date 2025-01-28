@@ -14,7 +14,7 @@ const Home = () => {
         </h3>
         <h4 className='text-2xl sm:text-4xl md:text-5xl my-2 text-[#8892b0]'>
           <b>
-            I'm a <i className='text-white'>Front end Developer</i>
+            I'm a <i className='text-white'>Fullstack Developer</i>
           </b>
         </h4>
         <p className='text-lg sm:text-xl md:text-2xl text-justify text-indigo-500 py-6 px-4 sm:px-6 md:px-10 mx-auto hover:bg-black transition-colors duration-300'>

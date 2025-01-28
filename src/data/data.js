@@ -6,6 +6,7 @@ import youtube from '../assets/projects/youtube.png'
 import foodie from '../assets/projects/foodie.png'
 import rideme from '../assets/projects/horseride.png'
 import currency_converter from '../assets/projects/currency-converter.png'
+import expense_tracker from '../assets/projects/expensetracker.png'
 import rbac from '../assets/projects/rbac.png'
 export const data=[
     
@@ -50,6 +51,13 @@ export const data=[
         image:rbac,
         github:"https://github.com/juv123/RBAC",
         live:"https://www.loom.com/share/02d58a29294d46fcaed36061d8e98d5d?sid=63d2c988-005e-461d-bc0a-0687b0a58563",
+    },
+    {
+        id:8,
+        name:"My Expense Tracker",
+        image:expense_tracker,
+        github:"https://github.com/juv123/expense-tracker-frontend",
+        live:"https://www.loom.com/share/4a9bc79dc7c14c08a6cf542bc71af8e7",
     },
 
 
