@@ -57,7 +57,7 @@ export const data=[
         name:"My Expense Tracker",
         image:expense_tracker,
         github:"https://github.com/juv123/expense-tracker-frontend",
-        live:"https://www.loom.com/share/4a9bc79dc7c14c08a6cf542bc71af8e7",
+        live:"https://www.loom.https://www.loom.com/share/db9fb3ebf3f6482c8ee6d1892d90bad0?sid=35b94563-0d93-4288-b096-67b01321f75d/share/4a9bc79dc7c14c08a6cf542bc71af8e7",
     },
 
 
